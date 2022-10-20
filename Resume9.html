@@ -8,21 +8,36 @@
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
 
-<body>
-  <div class="row">
-    <div class="col-md-4">.col-md-4</div>
-    <div class="col-md-4">
-      <div class="img-rounded">
-        <img src="Images/Drdetaillogo.jpg" alt="Drdetaillogo" style="width:100%" id="logo">
+<body id="body">
+  <nav class="navbar navbar-dark navbar-expand-sm bg-black fixed-top">
+    <a class="navbar-brand" href="#"><img src="Images/Drdetaillogoface.jpg" alt="logo" style="width:30px;"
+        id="logo"></a>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#about1">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#footer">Contact Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#location">Location</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="container-fluid" id="header">
+    <div class="row">
+      <div class="col-md-4"><img src="Images/bluecarwash.png" alt="bluecar" id=bluecar></div>
+      <div class="col-md-4">
+        <img src="Images/Drdetaillogo.jpg" alt="Drdetaillogo" style="width:100%" id="logo1">
       </div>
+      <div class="col-md-4"><img src="Images/bluecarwash.png" alt="bluecar" id=bluecar></div>
     </div>
-    <div class="col-md-4">.col-md-4</div>
   </div>
 
-  <div class="container-fluid">
+  <div class="container-fluid" id="about">
     <div class="row">
       <div class="col-md-9">
-        <div class="header col-md-1">
+        <div class="header col-md-1" id="about1">
           <h2>About</h2>
         </div>
         <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -41,28 +56,98 @@
           nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
           anim id est laborum."</p>
       </div>
-      <div class="col-md-3 bg-success">Main Content</div>
+      <div class="col-md-3" id="prices">
+        <div class="container bg-dark">
+          <h2 id="prices1">Prices</h2>
+        </div>
+        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="Images/Drdetailaddons.JPG" class="d-block w-100" alt="addons">
+            </div>
+            <div class="carousel-item">
+              <img src="Images/Drdetailmobile.JPG" class="d-block w-100" alt="pricelist">
+            </div>
+          </div>
+          <div id="button">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="container-fluid" id="location">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="header col-md-1">
+          <h2 id="location1">Location</h2>
+        </div>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+          ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+          nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+          anim id est laborum."</p>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+          ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+          nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+          anim id est laborum."</p>
+      </div>
     </div>
   </div>
   <div class="container-fluid ">
     <div class="row">
-      <div class="col-md-3  bg-black">Footer</div>
+      <div class="col-md-12 ">
+        <div class="mt-1 p-3 bg-secondary text-white rounded" id="jumbo">
+          <h2>DONT FORGET</h2>
+          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div clss="container-fluid">
+    <div class="row">
       <div class="col-md-6">
-        <div class="col text-center">
+        <div class="col" id="footer">
           <div classs="header col-md-1">
             <h2 id="footertext">Conatct Us</h2>
           </div>
-          <a href=target="blank">
-            <img class="icons" src=Images/linkedinlogo.png alt="Daniel Fielies Linkedin"></a>
-
+          <a href=https://www.instagram.com/drdetail3009 target="blank">
+            <img class="icons" src="Images/Instagram.png" alt="instagram"></a>
           <a href=https://www.facebook.com target="blank">
-            <img class="icons" src="Images/facebook.png" alt="Facebook"></a>
+            <img class="icons" src="Images/facebook.png" alt="facebook"></a>
 
           <a href="http://www.gmail.com/" target="blank">
-            <img class="icons" src="Images/gmail.png" alt="Gmail"></a>
+            <img class="icons" src="Images/gmail.png" alt="gmail"></a>
         </div>
       </div>
-      <div class="col-md-3 bg-black">Foooter</div>
+
+      <div class="col-md-6">
+        <form>
+          <fieldset id="fieldset">
+            <legend>
+              <h2>Contact Us</h2>
+            </legend>
+            <label for="name">Name:</label>
+            <input type="name" id="name" name="user_name" required>
+            <label for="ID Number">RSA ID Number</label>
+            <input type="number" id="ID Number" required>
+            <label for="mail">Email:</label>
+            <input type="email" id="mail" name="user_name">
+            <input type="submit" value="submit">
+          </fieldset>
+        </form>
+      </div>
     </div>
   </div>
 
